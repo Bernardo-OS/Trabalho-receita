@@ -1,3 +1,13 @@
+::-moz-selection { /* Code for Firefox */
+    color: red;
+    background: yellow;
+}
+  
+::selection {
+    color: red;
+    background: yellow;
+}
+
 body{
     background-color: rgb(44, 42, 165);
 }
@@ -38,6 +48,7 @@ table{
     background-color: rgb(160, 46, 12);
     width:100%;
     color: rgb(255, 255, 255);
+    font-family: 'Zilla Slab', serif;
 }
 
 table tr:hover{
@@ -56,4 +67,8 @@ table tbody tr td a:hover{
 
 .centralizado{
     text-align: center;
+}
+
+ol{
+    color: blanchedalmond;
 }
